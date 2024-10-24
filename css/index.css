@@ -1,0 +1,117 @@
+body {
+  background-image: url(../img/photoBody.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 5%;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  flex-direction: column;
+}
+
+#photoHeader {
+  width: 60%;
+  border-radius: 7%;
+  box-shadow: 1px 1px 1px 1px rgba(32, 32, 32, 0.5);
+}
+
+.photoMain {
+  width: 30%;
+  border-radius: 3%;
+  box-shadow: 1px 1px 1px 1px rgba(32, 32, 32, 0.5);
+}
+
+#pArticle1 {
+  display: flex;
+  width: 50%;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.article1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.article2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 3rem;
+  gap: 5%;
+}
+
+#pArticle2 {
+  display: flex;
+  width: 20%;
+  font-size: 20px;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.article3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  gap: 5%;
+  padding: 3rem;
+}
+
+#pArticle3 {
+  display: flex;
+  width: 20%;
+  font-size: 20px;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  right: 5%;
+}
+
+.article4 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 3rem;
+  gap: 5%;
+}
+
+#pArticle4 {
+  display: flex;
+  width: 33%;
+  font-size: 20px;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.article5 {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+#pArticle5 {
+  width: 70%;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  right: 5%;
+}
